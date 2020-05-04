@@ -1,0 +1,222 @@
+/*****BASE STYLES*****/
+
+h1, h2, h3, h4 {
+  font-family: 'Lora', serif;
+}
+
+h1 {
+  color: white;
+  line-height: 20px;
+  font-size: 85px;
+  font-weight: bolder;
+  padding-top: 75px;
+}
+
+h2 {
+  color: #FFBE0A;
+  font-size: 50px;
+  padding-bottom: 40px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+}
+
+/*****GRID*****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 370px;
+  float: left;
+  padding: 10px;
+}
+
+/*****HEADER*****/
+
+#header {
+  background: #092926;
+  overflow: auto;
+}
+
+#header h2 span {
+  color: #639C7B;
+  font-weight: bolder;
+}
+
+#navigation{
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 25px;
+}
+
+nav ul li a {
+  color: #639C7B;
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*****ABOUT*****/
+
+#about {
+  overflow: auto;
+  padding-bottom: 55px;
+}
+
+#about h3 {
+  padding-top: 35px;
+}
+
+#about img {
+  border: 10px solid #F3EDDF;
+  border-radius: 8%;
+  max-width: 75%;
+  height: auto;
+}
+
+#about p {
+  padding-top: 60px;
+  line-height: 40px;
+}
+
+/*****SKILLS*****/
+
+#skills {
+  clear: both;
+  overflow: auto;
+}
+
+#skills p {
+  line-height: 50px;
+  padding-left: 140px;
+}
+
+#skills-table {
+  border: none;
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  width: 100%;
+}
+
+#skills-table th {
+  text-align: left;
+  padding: 20px;
+}
+
+progress {
+  border-radius: 5px;
+}
+
+/* NON BROWSER SPECIFIC*/
+progress {
+  /* RESETS */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+ /*STYLE*/
+    width: 300px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: #e3e3e3;
+    color: #CE1F2C; /*RGB?*/
+}
+
+/* FOR WEBKIT BROWSERS*/
+progress::-webkit-progress-bar {
+  background-color: #e3e3e3;
+  border-radius: 5px;
+}
+progress::-webkit-progress-value {
+  background-color: #CE1F2C;
+  border-radius: 5px;
+
+}
+/* FOR FIREFOX */
+progress::-moz-progress-bar {
+  background-color: #CE1F2C; /*RGB?*/
+  border-radius: 20px;
+}
+
+/*****WORK*****/
+
+#work {
+  margin-top: 65px;
+  background: #F3EDDF;
+  overflow: auto;
+  padding-bottom: 50px;
+}
+
+#work img {
+  max-width: 100%;
+  height: auto;
+  border: 4px double #639C7B;
+  border-radius: 3%;
+}
+
+#work h4 {
+  text-align: center;
+}
+
+#work a {
+  color: #639C7B;
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*****CONNECT*****/
+
+#connect {
+  background: #FFBE0A;
+  overflow: auto;
+  padding-top: 35px;
+  padding-bottom: 45px;
+  text-align: center;
+}
+
+#connect h3 {
+  color: #CE1F2C;
+}
+
+#connect h3 a {
+  color: #F3EDDF;
+  text-decoration: none;
+}
+
+#connect ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#connect ul li {
+     display: inline-block;
+     padding-right: 35px;
+}
+
+#connect ul li img {
+  width: 40px;
+}
